@@ -46,3 +46,6 @@ VALUES
 
 SELECT * FROM sales
 ORDER BY amount DESC;
+
+SELECT * FROM sales
+WHERE customer_name = 'Aditi';
